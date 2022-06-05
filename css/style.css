@@ -12,6 +12,12 @@ html, body{
     overflow: hidden; /*prevents scrolling on the page*/
 }
 
+.logo{
+    width:5.5em;
+    height:5.5em;
+    border-radius: 50%;
+}
+
 .landing{
     position: relative; /*parent to .landing-inner for overlay*/
     background-image: url('../images/pexels-rodnae-productions-7249413.jpg');
