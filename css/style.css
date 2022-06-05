@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+}
+
+html, body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #333;
+    overflow: hidden; /*prevents scrolling on the page*/
+}
+
+.landing{
+    position: relative; /*parent to .landing-inner for overlay*/
+    background-image: url('../images/pexels-rodnae-productions-7249413.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.landing-inner{
+    position: absolute; /* covers the .landing parent*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 3em;
+}
+
+.landing h1{
+    font-size: 5em;
+}
+
+.landing p{
+    font-size: 2.5em;
+}
